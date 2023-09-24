@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhà sách uy tín</title>
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <ul id="nav">
+          <li><a href="">Trang chủ</a></li>
+          <li><a href="">Sách kinh tế</a></li>
+          <li><a href="">Sách Ngoại Văn</a></li>
+          <li><a href="">Sách Thiếu Nhi</a></li>
+          <li><a href="">Sách Chuyên Ngành</a></li>
+          <li><a href="">Sách Đời Sống</a></li>
+          <li><a href="#footer">Liên hệ</a></li>
+          <li><a href="./assets/login.html">Đăng Nhập</a></li>
+        </ul>
+        <div class="search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div id="slider">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                src="./assets/img/banner.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="./assets/img/banner.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img
+                src="./assets/img/banner.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="content">
+        <div class="book-hot">
+          <!-- Hot List -->
+          <div class="container">
+            <div class="book-hot-title">
+              <i class="fa-solid fa-fire fa-beat" style="color: #e90707;"></i>
+              <h2>Sách bán chạy</h2>
+            </div>
+            <div class="category">
+              <div class="row row-cols-5">
+              <!-- Item 1 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 8 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 9 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 10 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="btn-more mt-5">
+            <button type="button" class="btn btn-primary">Xem thêm</button>
+          </div>
+        </div>
+        <div class="book-new">
+          <!-- New List -->
+          <div class="container">
+            <h2>Sách mới</h2>
+            <div class="row row-cols-5">
+              <!-- Item 1 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 4 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 5 -->
+              <div class="col">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 6 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 7 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 8 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 9 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 10 -->
+              <div class="col mt-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-more mt-5">
+            <button type="button" class="btn btn-primary">Xem thêm</button>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="span12">
+          <div class="row">
+            <div class="footer-left">
+              <div class="span4">
+                <div class="wysiwyg-content">
+                  <span class="title">Về Công Ty</span>
+                  <ul>
+                    <li>
+                      <a href=""
+                        >Giới thiệu</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Tuyển dụng</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Góc báo chí</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Chương trình đại lý</a
+                      >
+                    </li>
+                    <!-- <li><a href="https://www.vinabook.com/so-do-website.html">Sơ đồ Website</a></li> -->
+                    <li>
+                      <a href=""
+                        >Chính sách bảo mật</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Chính sách đổi trả</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="wysiwyg-content">
+                  <span class="title">Trợ giúp</span>
+                  <ul>
+                    <li>
+                      <a href=""
+                        >Quy định sử dụng</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Hướng dẫn mua hàng</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Phương thức thanh toán</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Phương thức vận chuyển</a
+                      >
+                    </li>
+                    <li><a href="/support/">Các câu hỏi thường gặp</a></li>
+                    <li>
+                      <a href=""
+                        >Ứng dụng đọc ebook</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-right">
+                <div class="wysiwyg-content">
+                  <span class="title">Tải ứng dụng trên điện thoại</span>
+                  <figure class="logo-app">
+                    <span>
+                      <a
+                        target="_blank"
+                        href=""
+                        rel="nofollow"
+                      >
+                        <img
+                          src="https://www.vinabook.com/images/mobile/icon-appstore.png"
+                        />
+                      </a>
+                    </span>
+                    <span>
+                      <a
+                        target="_blank"
+                        href=""
+                        rel="nofollow"
+                      >
+                        <img
+                          src="https://www.vinabook.com/images/mobile/icon-googleplay.png"
+                        />
+                      </a>
+                    </span>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="span7">
+              <div class="span4">
+                <div class="wysiwyg-content">
+                  <span class="title">CHẤP NHẬN THANH TOÁN</span>
+                  <ul>
+                    <li>
+                      <figure class="icon-payment">
+                        <img
+                          src="./assets/img/visa.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/master_card.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/jcb.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/atm.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/cod.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/payoo.jpg"
+                          width="55"
+                          height="38"
+                        />
+                      </figure>
+                    </li>
+                  </ul>
+                  <span class="title">THANH TOÁN AN TOÀN</span>
+                  <ul>
+                    <li>
+                      <figure class="icon-payment">
+                        <img
+                          src="./assets/img/verify_visa.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/mastercard_securecode.jpg"
+                          width="55"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/onepay.jpg"
+                          width="55"
+                          height="38"
+                        />
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="wysiwyg-content">
+                  <span class="title">ĐỐI TÁC VẬN CHUYỂN</span>
+                  <ul>
+                    <li>
+                      <figure class="logo-shiper">
+                        <img
+                          src=""
+                          width="218"
+                          height="28"
+                        />
+                        <img
+                          src="./assets/img/vn-post.jpg"
+                          width="184"
+                          height="44"
+                        />
+                        <img
+                          src="./assets/img/dhl.jpg"
+                          width="184"
+                          height="30"
+                        />
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="wysiwyg-content">
+                  <span class="title">ĐỐI TÁC BÁN HÀNG</span>
+                  <ul>
+                    <li>
+                      <figure class="logo-shiper">
+                        <img
+                          src="./assets/img/lazada.jpg"
+                          width="115"
+                          height="41"
+                        />
+                        <img
+                          src="./assets/img/shopee.jpg"
+                          width="115"
+                          height="38"
+                        />
+                        <img
+                          src="./assets/img/amazon.jpg"
+                          width="115"
+                          height="35"
+                        />
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
